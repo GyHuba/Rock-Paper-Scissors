@@ -49,7 +49,7 @@ function playRound(playerSelection, computerSelection) {
         }
     }
     else if (playerSelection === "scissors") {
-        if (computerSelection === "scissors") {
+        if (computerSelection === "Scissors") {
             return "Draw"
         }
         else if (computerSelection === "Rock") {
