@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Preahvihear&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
     <title>Rock Paper Scissors</title>
 </head>
+
 <body>
+    <div class="game-container">
+        <div class="title">Rock Paper Scissors</div>
+        <div class="buttons">
+            <button class="rock"></button>
+            <button class="paper"></button>
+            <button class="scissors"></button>
+        </div>
+        <div class="game-texts">
+            <div class="computer-choice"></div>
+            <div class="result"></div>
+            <div class="points">
+                <div class="player">
+                    <p>Your score:</p>
+                    <p class="player-score"></p>
+                </div>
+                <div class="computer">
+                    <p>Computer score:</p>
+                    <p class="computer-score"></p>
+                </div>
+            </div>
+        </div>
+        <div class="game-texts game-over"></div>
+        <button class="restart-btn ">RESTART</button>
+    </div>
+    <div class="footer">Made by: Huba Gyihor</div>
     <script src="script.js"></script>
 </body>
+
 </html>
